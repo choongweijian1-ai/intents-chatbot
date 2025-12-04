@@ -1,0 +1,65 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there, what can I do for you?",
+        "Hey! Need any help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Catch you later"],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Bye! Come back anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot"],
+      "responses": [
+        "You’re welcome!",
+        "No problem!",
+        "Happy to help "
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "I’m not sure I understand. Could you rephrase?",
+        "Hmm, I don’t know the answer to that yet.",
+        "I’m still learning! Try asking something else."
+      ]
+    },
+    {
+      "tag": "parallel circuit",
+      "patterns": ["parallel", "parallel circuit"],
+      "responses": [
+        "A parallel circuit is an electrical circuit with multiple paths for current to flow, where components are connected side-by-side across the same two points. This means each component receives the same voltage, but the total current is the sum of the currents in each branch. If one path is broken, the other components in the parallel branches will continue to work because they have their own complete circuit. "
+      ]
+    },
+    {
+      "tag": "series circuit",
+      "patterns": [
+        "series",
+        "series circuit"],
+      "responses": [
+        "A series circuit is an electrical circuit with a single path for current to flow, meaning all components are connected end-to-end in a single loop. Because there is only one path, the current is the same through every component. If any part of the circuit is broken or a component fails, the entire circuit stops working because the loop is interrupted"
+      ]
+    },
+    {
+      "tag": "parallel circuit formula",
+      "patterns": [
+        "parallel formula",
+        "parallel circuit formula"],
+      "responses": [
+        " total resistance in a parallel circuit:\n\n1/RT = 1/R1 + 1/R2 + 1/R3 + ...\n\nRT = total resistance, and R1, R2, R3 are the individual resistances."
+        ]
+    }
+  ]
+}
